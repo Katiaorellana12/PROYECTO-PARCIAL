@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>AdminLTE 3 | Fixed Sidebar</title>
+  <title>PAGINA PRINCIPAL </title>
 
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
@@ -28,9 +28,7 @@
       <li class="nav-item d-none d-sm-inline-block">
         <a href="/libreriaorellana/about/" class="nav-link">Acerca de</a>
       </li>
-      <li class="nav-item d-none d-sm-inline-block">
-        <a href="/libreriaorellana/about2/" class="nav-link">Servicios/Productos</a>
-      </li>
+      
     </ul>
 
   <!-- Main Sidebar Container -->
@@ -57,11 +55,14 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="/libreriaorellana/index" class="nav-link">
+                <a href="/admin/login/?next=/admin/" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Login</p>
-                </a>
-              </li>
+                  <p>Login administrativo</p>
+                  <a href="/libreriaorellana/index" class="nav-link">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>Login de invitado</p>
+                  </a>
+                </li>
              
 
   
@@ -80,7 +81,7 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1>Usted esta en la página principal</h1>
+            <h1>Usted esta en la página principal {{producto1}}</h1>
           </div>
         </div>
       </div><!-- /.container-fluid -->
